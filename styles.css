@@ -1,0 +1,151 @@
+body {
+    background-color: rgba(5, 5, 5, 0.377);
+}
+
+.calculator {
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    display: grid;
+    border: 1px solid rgba(207, 207, 207, 0.164);
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.856);
+    justify-content: center;
+}
+
+.display {
+    margin-top: 20px;
+    height: 90px;
+    width: 350px;
+    background-color: rgba(228, 228, 228, 0.39);
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 12px;
+    font-size: 60px;
+    text-align: right;
+    color: black;
+}
+
+#clear {
+    font-size: 70px;
+    background-color: darkslategrey;
+    border-radius: 6px;
+    height: 75px;
+    width: 75px;
+    margin-bottom: 20px;
+}
+
+.num-buttons {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px 75px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#one {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#two {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#three {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#four {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#five {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#six {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#seven {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#eight {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#nine {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+#zero {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: rgba(190, 190, 190, 0.575);
+}
+
+.opera-buttons {
+    display: inline;
+    justify-self: center;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+#add {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: darkred;
+}
+
+#subtract {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: darkred;
+}
+
+#multiply {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: darkred;
+}
+
+#divide {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: darkred;
+}
+
+#equals {
+    font-size: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    height: 75px;
+    width: 75px;
+}
+
+#dec {
+    font-size: 70px;
+    border-radius: 6px;
+    background-color: #042500e1;
+}
